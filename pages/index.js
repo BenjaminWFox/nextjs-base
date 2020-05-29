@@ -1,3 +1,4 @@
+import Callout from '@/components/callout/callout'
 import Head from 'next/head'
 
 export default function Home() {
@@ -5,12 +6,15 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          href="/favicon.ico"
+          rel="icon"
+        />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <Callout>Welcome to <a href="https://nextjs.org">Next.js!</a></Callout>
         </h1>
 
         <p className="description">
@@ -18,27 +22,33 @@ export default function Home() {
         </p>
 
         <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
+          <a
+            className="card"
+            href="https://nextjs.org/docs"
+          >
             <h3>Documentation &rarr;</h3>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className="card">
+          <a
+            className="card"
+            href="https://nextjs.org/learn"
+          >
             <h3>Learn &rarr;</h3>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
             className="card"
+            href="https://github.com/vercel/next.js/tree/master/examples"
           >
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
           </a>
 
           <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className="card"
+            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           >
             <h3>Deploy &rarr;</h3>
             <p>
@@ -51,11 +61,15 @@ export default function Home() {
       <footer>
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
           rel="noopener noreferrer"
+          target="_blank"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img
+            alt="Vercel Logo"
+            className="logo"
+            src="/vercel.svg"
+          />
         </a>
       </footer>
 
@@ -188,9 +202,13 @@ export default function Home() {
             flex-direction: column;
           }
         }
-      `}</style>
+      `}
+      </style>
 
-      <style jsx global>{`
+      <style
+        global
+        jsx
+      >{`
         html,
         body {
           padding: 0;
@@ -203,7 +221,8 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-      `}</style>
+      `}
+      </style>
     </div>
   )
 }
