@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 The additional configuration includes:
 
 - Linting with ESLint
-- Testing with Jest & Testing Library React, and
+- Testing with Jest & Testing Library React
 - Aliased Paths/Absolute Imports.
 
 All steps for configuration are [documented in this tutorial]().
@@ -17,9 +17,8 @@ Clone the project, then:
 
 `npm install` / `yarn install`
 
+followed by:
+
 `npm run dev` / `yarn dev`
 
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
