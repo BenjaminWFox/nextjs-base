@@ -1,4 +1,7 @@
 ## Next.js Base Project 
+
+**_NOTE: This (master) is an old branch. The `main` branch has the latest code, updated for Next 11_**
+
 ### Includes Configuration for Sustainable Development
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
