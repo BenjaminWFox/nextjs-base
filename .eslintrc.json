@@ -52,14 +52,15 @@
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-max-depth": 0,
     "react/jsx-newline": 0,
-    "react/jsx-props-no-spreading": 0
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-max-props-per-line": ["error", {"maximum": {"single": 3, "multi": 1}}]
   },
   "ignorePatterns": ["node_modules/", ".next/"],
   "settings": {
     "import/resolver": {
       "alias": [
-          ["@/components", "./components"],
-          ["@/classes", "./classes"]
+          ["@/components", "./src/components"],
+          ["@/classes", "./src/classes"]
       ]
     }
   }
